@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Photo Slide</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Scripts
+    ================================================== -->
+    <script src="js/vendor/modernizr.custom.js"></script>
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  </head>
+  <body>
+
+    <div class="marqueeSlide">
+      <div class="viewport">
+        <ul class="photo-list">
+          <li class="slide img1 active" style="background-image:url(img/1.jpg);"><img src="img/1.jpg"/>
+            <p class="caption">One Descriptive text.</p>
+          </li>
+          <li class="slide img2" style="background-image:url(img/2.jpg);"><img src="img/2.jpg"/>
+            <p class="caption">Two Descriptive text.</p>
+          </li>
+          <li class="slide img3" style="background-image:url(img/3.jpg);"><img src="img/3.jpg"/>
+            <p class="caption">Three Descriptive text.</p>
+          </li>
+          <li class="slide img4" style="background-image:url(img/4.jpg);"><img src="img/4.jpg"/>
+            <p class="caption">Four Descriptive text.</p>
+          </li>
+          <li class="slide img5" style="background-image:url(img/5.jpg);"><img src="img/5.jpg"/>
+            <p class="caption">Five Descriptive text.</p>
+          </li>
+          <li class="slide img6" style="background-image:url(img/6.jpg);"><img src="img/6.jpg"/>
+            <p class="caption">Six Descriptive text.</p>
+          </li>
+        </ul>
+        <div class="nav-bar">
+          <button class="slide-nav-prev">Prev</button>
+          <button class="slide-nav-next">Next</button>
+        </div>
+      </div>
+      <div class="caption-bar">
+
+      </div>
+    </div>
+
+    <!-- get Jquery by CDN or local -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <!-- Vendor -->
+    <script src="js/vendor/jquery-ui-1.10.0.custom.min.js"></script>
+    <script src="js/vendor/jquery-throttle-debounce.js"></script>
+    <script src="js/vendor/jquery-transit.js"></script>
+
+    <!-- Libs -->
+    <script src="js/lib/functions.js"></script>
+    <!-- Components -->
+    <script src="js/plugins/marqueeSlide.js"></script>
+    <!-- Boostraps -->
+    <script src="js/application-bootstrap.js"></script>
+  </body>
+</html>
